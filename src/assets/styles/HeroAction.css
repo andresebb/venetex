@@ -1,0 +1,60 @@
+.hero-action {
+  background: blue;
+  margin: 0px 14px;
+  margin-top: -130px;
+  z-index: 999;
+  position: relative;
+  border-radius: 10px;
+  color: white;
+}
+
+.hero-action-box h3 {
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.hero-action-box p {
+  font-size: 12px;
+}
+
+.hero-action-box svg {
+  width: 30px;
+  height: 25px;
+}
+
+.rastreo {
+  color: white;
+  background-color: #fbc027;
+  border-bottom: 1px solid #fbc027;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  padding: 14px 14px;
+}
+
+.pickup {
+  color: black;
+  background-color: #fafafa;
+  border-bottom: 1px solid #fbc027;
+  padding: 14px 14px;
+}
+
+.pickup svg {
+  color: #fbc027;
+}
+
+.casillero {
+  color: black;
+  background-color: #fafafa;
+  border-bottom: 1px solid #fbc027;
+  padding: 14px 14px;
+}
+
+.envio {
+  color: white;
+  background-color: #fbc027;
+  border-bottom: 1px solid #fbc027;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding: 14px 14px;
+}
