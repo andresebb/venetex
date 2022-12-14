@@ -1,0 +1,33 @@
+.header {
+  height: 50px;
+  display: flex;
+  background-color: black;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  padding: 0 12px;
+  z-index: 99;
+}
+
+.logo-container {
+  width: 40px;
+  height: 40px;
+}
+
+.logo-container img {
+  height: 100%;
+  width: 100%;
+}
+
+.menu-container {
+  width: 30px;
+  height: 20px;
+}
+
+.menu-container img {
+  height: 100%;
+  width: 100%;
+}
