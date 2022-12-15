@@ -1,21 +1,14 @@
 .hero-action {
-  background: blue;
   margin: 0px 14px;
-  margin-top: -130px;
+  margin-top: -140px;
   z-index: 999;
   position: relative;
-  border-radius: 10px;
   color: white;
 }
 
 .hero-action-box h3 {
   font-size: 16px;
   font-weight: 600;
-  letter-spacing: 1px;
-}
-
-.hero-action-box p {
-  font-size: 12px;
 }
 
 .hero-action-box svg {
@@ -33,8 +26,8 @@
 }
 
 .pickup {
-  color: black;
-  background-color: #fafafa;
+  color: #171b2a;
+  background-color: white;
   border-bottom: 1px solid #fbc027;
   padding: 14px 14px;
 }
@@ -44,10 +37,14 @@
 }
 
 .casillero {
-  color: black;
-  background-color: #fafafa;
+  color: #171b2a;
+  background-color: white;
   border-bottom: 1px solid #fbc027;
   padding: 14px 14px;
+}
+
+.casillero svg {
+  color: #fbc027;
 }
 
 .envio {

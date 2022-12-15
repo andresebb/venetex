@@ -19,27 +19,23 @@ main {
   object-fit: cover;
 }
 
-.main-image img {
-  height: 100%;
-  width: 100%;
-}
-
 .main-action {
   position: absolute;
-  top: 135px;
-  left: 20px;
-  padding-right: 20px;
+  top: 100px;
+  left: 0;
+  right: 0;
+  padding: 0 20px;
 }
 
 .main-name {
-  font-size: 10px;
+  font-size: 15px;
   font-weight: bold;
   color: #fbc027;
   letter-spacing: 2px;
 }
 
 .main-slogan {
-  font-size: 20px;
+  font-size: 35px;
   font-weight: bold;
   margin-top: 20px;
   color: white;
@@ -50,14 +46,14 @@ main {
 }
 
 .main-description {
-  font-size: 12px;
   color: white;
   margin-top: 36px;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
+  line-height: 30px;
 }
 
 .main-buttons {
-  margin-top: 20px;
+  margin-top: 40px;
   display: flex;
   align-items: center;
 }
@@ -74,11 +70,6 @@ main {
   padding: 10px 8px;
 }
 
-.main-button-uno p {
-  margin: 0;
-  font-size: 12px;
-}
-
 .main-button-dos {
   background: #e48900;
   display: flex;
@@ -91,12 +82,7 @@ main {
   padding: 10px 8px;
 }
 
-.main-button-dos p {
-  margin: 0;
-  font-size: 12px;
-}
-
-.main-logo-container {
+.main-button-logo {
   padding: 4px;
   background: black;
   border-radius: 6px;

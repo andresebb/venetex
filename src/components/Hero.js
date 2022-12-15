@@ -26,13 +26,13 @@ export const Hero = () => {
           <div className="main-buttons">
             <Link className="main-button-uno">
               <p>CONTACTO</p>
-              <div className="main-logo-container">
+              <div className="main-button-logo">
                 <FaArrowRight />
               </div>
             </Link>
             <Link className="main-button-dos">
               <p>CONTACTO</p>
-              <div className="main-logo-container">
+              <div className="main-button-logo">
                 <FaArrowRight />
               </div>
             </Link>

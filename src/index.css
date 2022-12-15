@@ -5,6 +5,32 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* black: #171B2A */
+/* gray: #757F95 */
+
 code {
   font-family: "Poppins", sans-serif;
+}
+
+.yellow-letter {
+  color: #fbc027;
+}
+
+p {
+  font-size: 16px;
+  margin: 0;
+  line-height: 1.8;
+}
+
+.line {
+  height: 2px;
+  width: 60px;
+  background-color: #fbc027;
+  margin-right: 20px;
+}
+
+.line-title {
+  font-size: 16px;
+  color: #fbc027;
+  margin: 0;
 }
