@@ -1,0 +1,133 @@
+.destinos-area {
+  position: relative;
+  background: #eef1f6;
+  position: relative;
+  background: #eef1f6;
+  padding: 70px 0;
+}
+
+.destinos-shape-uno {
+  position: absolute;
+  top: 0;
+  left: -50px;
+  width: 200px;
+  height: 200px;
+  border-radius: 33% 66% 70% 30%/49% 62% 38% 51%;
+  background: #fbc027;
+  opacity: 0.15;
+}
+.destinos-shape-dos {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  right: -0;
+  bottom: 0;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  background: #fbc027;
+  opacity: 0.15;
+}
+
+.destinos-container {
+  display: grid;
+  grid-template-rows: 1fr;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+  row-gap: 50px;
+}
+
+.destinos-line-container {
+  display: flex;
+  justify-content: center;
+}
+
+.destinos-text h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.destinos-text p {
+  margin-top: 20px;
+  color: #757f95;
+  text-align: center;
+}
+
+.destinos-image-box {
+  position: relative;
+}
+
+.destinos-box-shape-uno {
+  width: 100px;
+  height: 100px;
+  background: #fbc027;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+}
+.destinos-box-shape-dos {
+  width: 100px;
+  height: 100px;
+  background: #fbc027;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+}
+.destinos-box-shape-tres {
+  width: 100px;
+  height: 100px;
+  background: #fbc027;
+  position: absolute;
+  bottom: -10px;
+  left: -10px;
+}
+.destinos-box-shape-cuatro {
+  width: 100px;
+  height: 100px;
+  background: #fbc027;
+  position: absolute;
+  bottom: -10px;
+  right: -10px;
+}
+
+.destinos-images {
+  display: grid;
+  grid-template-rows: 110px 110px 110px 110px 110px 110px 110px 110px;
+}
+
+.destinos-image-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.destinos-overlay {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.3);
+  color: white;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  letter-spacing: 4px;
+  font-size: 22px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.destinos-arrow {
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+  font-size: 14px;
+  width: 18px;
+}
+
+.image-destinos {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

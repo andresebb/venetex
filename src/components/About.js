@@ -22,12 +22,13 @@ export const About = () => {
         </div>
         <div className="about-text-container">
           <div className="about-title-container">
-            <div className="about-title">
+            <div className="line-container">
               <div className="line" />
               <h3 className="line-title">ACERCA DE NOSOTROS</h3>
             </div>
             <h2>
-              Somos Expertos En<span className="yellow-letter">Soluciones</span>
+              Somos Expertos En
+              <span className="yellow-letter"> Soluciones </span>
               De Logistica
             </h2>
             <p className="about-text">

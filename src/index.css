@@ -16,10 +16,34 @@ code {
   color: #fbc027;
 }
 
+h1,
+h2 {
+  color: #171b2a;
+}
+
 p {
   font-size: 16px;
   margin: 0;
   line-height: 1.8;
+}
+
+.line-container {
+  display: flex;
+  align-items: baseline;
+}
+
+.mobile-line {
+  width: 90px;
+  height: 4px;
+  background: #fbc027;
+  margin: auto;
+}
+
+.mobile-line-white {
+  background: white;
+  width: 10px;
+  height: 4px;
+  margin: auto;
 }
 
 .line {

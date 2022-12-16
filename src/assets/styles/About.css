@@ -54,11 +54,6 @@
   margin-top: 60px;
 }
 
-.about-title {
-  display: flex;
-  align-items: baseline;
-}
-
 .about-text {
   font-size: 16px;
   font-weight: normal;
