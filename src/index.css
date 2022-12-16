@@ -17,7 +17,8 @@ code {
 }
 
 h1,
-h2 {
+h2,
+h3 {
   color: #171b2a;
 }
 
@@ -37,6 +38,7 @@ p {
   height: 4px;
   background: #fbc027;
   margin: auto;
+  margin-bottom: 16px;
 }
 
 .mobile-line-white {

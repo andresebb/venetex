@@ -1,0 +1,49 @@
+.work-process {
+  padding: 90px 14px;
+}
+
+.work-process-area {
+  display: grid;
+  text-align: center;
+  grid-row-gap: 40px;
+}
+
+.work-process p {
+  color: #757f95;
+  line-height: 1.8;
+}
+
+.work-logo-container {
+  padding: 20px 15px;
+  border: 2px solid #fbc027;
+  border-radius: 166px;
+  text-align: center;
+  margin: auto;
+  justify-content: center;
+  width: 50px;
+  box-shadow: 0 3px 24px rgb(0 0 0 / 10%);
+  position: relative;
+}
+
+.work-step-number {
+  position: absolute;
+  height: 35px;
+  width: 35px;
+  font-size: 14px;
+  background: #fbc027;
+  line-height: 35px;
+  color: #ffffff;
+  left: -3px;
+  top: -13px;
+  font-weight: 600;
+  border-radius: 33% 66% 70% 30%/49% 62% 38% 51%;
+}
+
+.work-steps {
+  display: grid;
+  grid-template-columns: 1fr;
+  max-width: 1200px;
+  grid-gap: 30px;
+  margin: auto;
+  text-align: center;
+}

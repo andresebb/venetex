@@ -19,7 +19,7 @@ export const Destinos = () => {
         <div className="destinos-text">
           <div className="line-container destinos-line-container">
             <div className="line" />
-            <h3 className="line-title">SERVICIOS</h3>
+            <h3 className="line-title">DESTINOS</h3>
           </div>
           <div>
             <h2>
