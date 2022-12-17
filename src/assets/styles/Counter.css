@@ -1,0 +1,26 @@
+.counter-area {
+  display: grid;
+  grid-gap: 80px;
+  text-align: center;
+  justify-content: center;
+  padding: 60px 0;
+  background: #fbc027;
+}
+
+.counter-image {
+  margin-bottom: 12px;
+}
+
+.counter-box span {
+  font-size: 50px;
+  color: white;
+  font-weight: bold;
+}
+
+.counter-box h6 {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  margin: 0;
+  margin-top: 10px;
+}

@@ -5,6 +5,7 @@ import { Hero } from "../components/Hero";
 import { HeroAction } from "../components/HeroAction";
 import { Destinos } from "../components/Destinos";
 import { WorkProcess } from "../components/WorkProcess";
+import { Counter } from "../components/Counter";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <About />
       <Destinos />
       <WorkProcess />
+      <Counter />
     </div>
   );
 };
