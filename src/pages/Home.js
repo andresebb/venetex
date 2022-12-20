@@ -8,6 +8,7 @@ import { WorkProcess } from "../components/WorkProcess";
 import { Counter } from "../components/Counter";
 import { Faq } from "../components/Faq";
 import { Testimonial } from "../components/Testimonial";
+import { Footer } from "../components/Footer";
 
 const Home = () => {
   return (
@@ -21,6 +22,7 @@ const Home = () => {
       <Counter />
       <Faq />
       <Testimonial />
+      <Footer />
     </div>
   );
 };
