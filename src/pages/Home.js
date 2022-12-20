@@ -7,6 +7,7 @@ import { Destinos } from "../components/Destinos";
 import { WorkProcess } from "../components/WorkProcess";
 import { Counter } from "../components/Counter";
 import { Faq } from "../components/Faq";
+import { Testimonial } from "../components/Testimonial";
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
       <WorkProcess />
       <Counter />
       <Faq />
+      <Testimonial />
     </div>
   );
 };
