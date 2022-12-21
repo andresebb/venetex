@@ -73,9 +73,10 @@
 }
 
 .footer-reserve {
-  text-align: center;
+  text-align: left;
+  margin-top: 60px;
 }
 
-.footer-reserve span {
+.footer-text-yellow {
   color: #fbc027;
 }

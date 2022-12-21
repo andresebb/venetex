@@ -58,6 +58,10 @@ main {
   align-items: center;
 }
 
+.main-buttons p {
+  color: white;
+}
+
 .main-button-uno {
   background: #fbc027;
   display: flex;

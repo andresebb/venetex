@@ -9,6 +9,7 @@ import peru from "../assets/images/peru.jpg";
 import ecuador from "../assets/images/ecuador.jpg";
 import honduras from "../assets/images/honduras.jpg";
 import costarica from "../assets/images/costa-rica.jpg";
+import { Link } from "react-router-dom";
 
 export const Destinos = () => {
   return (
@@ -41,11 +42,14 @@ export const Destinos = () => {
           <div className="destinos-box-shape-tres" />
           <div className="destinos-box-shape-cuatro" />
           <div className="destinos-images">
-            <div className="destinos-image-container">
+            <Link
+              to={`destinos:venezuela`}
+              className="destinos-image-container"
+            >
               <div className="destinos-overlay">VENEZUELA</div>
               <img src={arrow} alt="" className="destinos-arrow" />
               <img src={venezuela} alt="" className="image-destinos" />
-            </div>
+            </Link>
             <div className="destinos-image-container">
               <div className="destinos-overlay">MEXICO</div>
               <img src={arrow} alt="" className="destinos-arrow" />

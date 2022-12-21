@@ -72,9 +72,13 @@ export const Footer = () => {
           <Link className="footer-link-text">Agendar Pick Up</Link>
         </div>
       </div>
-      <span className="footer-reserve">
-        © Copyright 2022 <span> VENETEX EXPRESS LLC</span> All Rights Reserved.
-      </span>
+      <div className="footer-reserve">
+        <span>
+          © Copyright 2022{" "}
+          <span className="footer-text-yellow"> VENETEX EXPRESS LLC</span> All
+          Rights Reserved.
+        </span>
+      </div>
     </div>
   );
 };
