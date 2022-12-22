@@ -45,6 +45,7 @@ export const Destinos = () => {
             <Link
               to={`destinos:venezuela`}
               className="destinos-image-container"
+              preventScrollReset={false}
             >
               <div className="destinos-overlay">VENEZUELA</div>
               <img src={arrow} alt="" className="destinos-arrow" />

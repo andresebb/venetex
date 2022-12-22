@@ -78,7 +78,11 @@ const Venezuela = () => {
         </div>
         <Faq />
         <div className="faq-button-container">
-          <Link className="faq-button">
+          <Link
+            className="faq-button"
+            to="/shippingForm"
+            preventScrollReset={true}
+          >
             <p>PLANILLA DE ENVIO</p>
             <div className="faq-button-image">
               <img src={arrow} alt="" />
