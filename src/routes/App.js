@@ -9,13 +9,13 @@ import ShippingForm from "../pages/ShippingForm";
 const App = () => {
   return (
     <BrowserRouter>
-      {/* <Layout> */}
-      <Routes>
-        <Route exact path="/" element={<Home />} />
-        <Route exact path="/destinos:venezuela" element={<Venezuela />} />
-        <Route exact path="/shippingForm" element={<ShippingForm />} />
-      </Routes>
-      {/* </Layout> */}
+      <Layout>
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route exact path="/destinos:venezuela" element={<Venezuela />} />
+          <Route exact path="/shippingForm" element={<ShippingForm />} />
+        </Routes>
+      </Layout>
     </BrowserRouter>
   );
 };

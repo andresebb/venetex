@@ -1,10 +1,40 @@
+.shipping-legal {
+  margin-top: 70px;
+  padding: 0 14px;
+}
+
+.shipping-legal p {
+  color: black;
+}
+
+.shipping-legal ol {
+  padding-left: 14px;
+}
+
+.shipping-legal ol li {
+  padding: 10px 0;
+}
+
+.shipping-legal ol li::marker {
+  color: #fbc027;
+}
+
 .form-area {
   padding: 0 14px;
 }
 
+.form-area h2 {
+  color: #fbc027;
+}
+
 .form-shipper {
   display: grid;
-  grid-gap: 12px;
+  grid-gap: 20px;
+}
+
+.form-destiny {
+  display: grid;
+  grid-gap: 20px;
 }
 
 .form-error {
@@ -20,6 +50,10 @@
   font-size: 14px;
 }
 
+.form-declaration-text {
+  margin: 24px 0;
+}
+
 .form-input input {
   padding: 8px;
   border: 1px solid #d1d1d1;
@@ -31,4 +65,22 @@
 
 .form-input input:active {
   outline: 1px solid #fbc027;
+}
+
+.form-declaration-checkbox {
+  display: flex;
+  align-items: center;
+  margin: 24px 0;
+}
+
+.checkbox-box {
+  width: 20px;
+  height: 20px;
+  color: #fbc027;
+}
+
+.form-declaration-accept {
+  color: #fbc027;
+  font-weight: bold;
+  margin-left: 14px;
 }
