@@ -6,14 +6,28 @@
   color: white;
 }
 
+.hero-action-box {
+  cursor: pointer;
+  color: white;
+}
+
 .hero-action-box h3 {
   font-size: 16px;
   font-weight: 600;
+  color: white;
 }
 
 .hero-action-box svg {
   width: 30px;
   height: 25px;
+}
+
+.hero-action-box:hover svg {
+  color: white !important;
+  animation-name: taran;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
 }
 
 .rastreo {
@@ -23,9 +37,10 @@
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
   padding: 14px 14px;
+  color: white;
 }
 
-.rastreo h3 {
+.rastreo p {
   color: white;
 }
 
@@ -34,10 +49,27 @@
   background-color: white;
   border-bottom: 1px solid #fbc027;
   padding: 14px 14px;
+  transition: 1s;
+}
+.pickup h3 {
+  color: black;
 }
 
-.pickup svg {
-  color: #fbc027;
+.pickup:hover {
+  background-color: #fbc027;
+  transition: 1s;
+}
+.pickup:hover h3 {
+  color: white !important;
+}
+.pickup:hover p {
+  color: white !important;
+}
+.pickup:hover svg {
+  color: white !important;
+}
+.truck-action {
+  animation-duration: 2s;
 }
 
 .casillero {
@@ -47,8 +79,23 @@
   padding: 14px 14px;
 }
 
-.casillero svg {
-  color: #fbc027;
+.casillero:hover {
+  background-color: #fbc027;
+  transition: 1s;
+}
+
+.casillero h3 {
+  color: black;
+}
+
+.casillero:hover h3 {
+  color: white !important;
+}
+.casillero:hover p {
+  color: white !important;
+}
+.casillero:hover svg {
+  color: white !important;
 }
 
 .envio {
@@ -60,6 +107,15 @@
   padding: 14px 14px;
 }
 
-.envio h3 {
-  color: white;
+@keyframes taran {
+  0% {
+    transform: rotateX(0deg);
+  }
+
+  50% {
+    transform: rotateX(180deg);
+  }
+  100% {
+    transform: rotateX(360deg);
+  }
 }

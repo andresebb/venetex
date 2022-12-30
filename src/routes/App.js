@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "../index.css";
+import "animate.css";
 import { Layout } from "../components/Layout";
 import Home from "../pages/Home";
 import Venezuela from "../pages/Venezuela";

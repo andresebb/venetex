@@ -44,24 +44,24 @@ export const Destinos = () => {
           <div className="destinos-images">
             <Link
               to={`destinos:venezuela`}
-              className="destinos-image-container"
+              className="destinos-image-container animate__backInLeft"
               preventScrollReset={false}
             >
               <div className="destinos-overlay">VENEZUELA</div>
               <img src={arrow} alt="" className="destinos-arrow" />
               <img src={venezuela} alt="" className="image-destinos" />
             </Link>
-            <div className="destinos-image-container">
+            <div className="destinos-image-container animate__backInRight">
               <div className="destinos-overlay">MEXICO</div>
               <img src={arrow} alt="" className="destinos-arrow" />
               <img src={mexico} alt="" className="image-destinos" />
             </div>
-            <div className="destinos-image-container">
+            <div className="destinos-image-container animate__backInLeft">
               <div className="destinos-overlay">COLOMBIA</div>
               <img src={arrow} alt="" className="destinos-arrow" />
               <img src={colombia} alt="" className="image-destinos" />
             </div>
-            <div className="destinos-image-container">
+            <div className="destinos-image-container animate__backInRight">
               <div className="destinos-overlay">DOMINICANA</div>
               <img src={arrow} alt="" className="destinos-arrow" />
               <img src={dominicana} alt="" className="image-destinos" />

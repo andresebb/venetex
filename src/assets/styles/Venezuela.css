@@ -36,9 +36,6 @@
   padding: 0 14px;
 }
 
-.country-information {
-}
-
 .country-time {
   text-align: center;
 }
@@ -62,7 +59,7 @@
 }
 
 .articulos-prohibidos {
-  text-align: center;
+  padding: 0 14px;
 }
 
 .planilla-container {
@@ -79,4 +76,27 @@
   color: white;
   text-decoration: none;
   font-weight: bold;
+}
+
+.planilla-button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.planilla-button {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  background: #fbc027;
+
+  padding: 8px 12px;
+  color: white;
+  border-radius: 6px;
+  margin: 20px 0;
+  box-shadow: 3px 5px 6px 4px #0000001c;
+}
+
+.planilla-button p {
+  color: white;
+  margin-right: 8px;
 }

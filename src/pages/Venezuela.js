@@ -62,7 +62,7 @@ const Venezuela = () => {
             </div>
           </div>
         </div>
-        <div className="aticulos-prohibidos">
+        <div className="articulos-prohibidos">
           <div>
             <h2>Articulos prohibidos</h2>
             <p>
@@ -77,9 +77,9 @@ const Venezuela = () => {
           </div>
         </div>
         <Faq />
-        <div className="faq-button-container">
+        <div className="planilla-button-container">
           <Link
-            className="faq-button"
+            className="planilla-button"
             to="/shippingForm"
             preventScrollReset={true}
           >

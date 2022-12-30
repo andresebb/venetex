@@ -25,6 +25,8 @@ main {
   left: 0;
   right: 0;
   padding: 0 20px;
+
+  animation-duration: 1s;
 }
 
 .main-name {
@@ -32,6 +34,8 @@ main {
   font-weight: bold;
   color: #fbc027;
   letter-spacing: 2px;
+
+  /* animation-duration: 1s; */
 }
 
 .main-slogan {
@@ -66,24 +70,40 @@ main {
   background: #fbc027;
   display: flex;
   align-items: center;
+  justify-content: center;
   margin-right: 25px;
   border-radius: 4px;
   font-weight: lighter;
   color: white;
   text-decoration: none;
   padding: 10px 8px;
+  box-shadow: inset 0 -0.4em rgb(0 0 0 / 20%);
+  transition: 0.3s;
+  animation-delay: 1s;
+}
+
+.main-button-uno:hover {
+  padding: 14px 12px;
 }
 
 .main-button-dos {
   background: #e48900;
   display: flex;
   align-items: center;
+  justify-content: center;
+
   margin-right: 25px;
   border-radius: 4px;
   font-weight: lighter;
   color: white;
   text-decoration: none;
   padding: 10px 8px;
+  animation-delay: 1s;
+  box-shadow: inset 0 -0.4em rgb(0 0 0 / 20%);
+}
+
+.main-button-dos:hover {
+  padding: 14px 12px;
 }
 
 .main-button-logo {
@@ -94,4 +114,13 @@ main {
   display: flex;
   align-items: center;
   margin-left: 10px;
+}
+
+@keyframes bigger {
+  0% {
+    padding: 10px 8px;
+  }
+  100% {
+    padding: 14px 12px;
+  }
 }
