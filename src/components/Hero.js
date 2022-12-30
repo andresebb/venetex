@@ -17,8 +17,7 @@ export const Hero = () => {
         <div className="main-action animate__flipInX">
           <h3 className="main-name">VENETEX EXPRESS LLC</h3>
           <h1 className="main-slogan animate__flipInX">
-            EL SERVICIO DE TRANSPORTE <br /> <span>MAS RAPIDO</span>Y
-            GARANTIZADO
+            EL SERVICIO DE TRANSPORTE <span>MAS RAPIDO</span> Y GARANTIZADO
           </h1>
           <p className="main-description">
             Realiza con nosotros tu envio puerta a puerta desde Estados Unidos
