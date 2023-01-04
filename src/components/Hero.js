@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import "../assets/styles/Hero.css";
-import background from "../assets/images/hero.jpg";
+import background from "../assets/images/heroVideo.mp4";
 
 import { FaArrowRight } from "react-icons/fa";
 
@@ -12,7 +12,14 @@ export const Hero = () => {
       <div className="main ">
         <div className="main-overlay" />
         <div>
-          <img src={background} alt="" className="main-image" />
+          <video
+            src={background}
+            className="main-image"
+            autoPlay
+            loop
+            muted
+            playsInline
+          />
         </div>
         <div className="main-action animate__flipInX">
           <h3 className="main-name">VENETEX EXPRESS LLC</h3>
